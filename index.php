@@ -16,10 +16,10 @@
 </head>
 <body>
 
-<?php include "nav.php" ?>
-<?php include "mainboard.php" ?>
-<?php include "cards.php" ?>
-<?php include "footer.php" ?>
+<?php include "./COMPONENTS/nav.php" ?>
+<?php include "./COMPONENTS/mainboard.php" ?>
+<?php include "./COMPONENTS/cards.php" ?>
+<?php include "./COMPONENTS/footer.php" ?>
 
 
 

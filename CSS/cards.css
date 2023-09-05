@@ -9,16 +9,14 @@
 .wrapper {
     position: relative;
     perspective: 40em;
-    display: grid;
     transform-style: preserve-3d;
     /* border: 5px solid red; */
 
 }
 
 .card {
-    grid-area: 1 / 1;
     height: 150px;
-    width: 300px;
+    width: 250px;
     transform: translateX(10px) rotateY(25deg) rotateX(10deg);
     background-color: var(--nav-color);
     display: flex;
@@ -30,7 +28,8 @@
     font-size: 60px;
     font-weight: 900;
     backface-visibility: hidden;
-    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 30px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 .wrapper .card h1 {
